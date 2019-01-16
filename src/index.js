@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import * as cocoSsd from "@tensorflow-models/coco-ssd";
-// import "@tensorflow/tfjs";
+import "@tensorflow/tfjs";
 import "./styles.css";
 
 class App extends React.Component {
