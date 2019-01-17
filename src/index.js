@@ -88,14 +88,14 @@ class App extends React.Component {
           playsInline
           muted
           ref={this.videoRef}
-          width="360"
-          height="200"
+          width="1080"
+          height="768"
         />
         <canvas
           className="size"
           ref={this.canvasRef}
-          width="360"
-          height="500"
+          width="1080"
+          height="768"
         />
       </div>
     );
